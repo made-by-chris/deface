@@ -5,11 +5,20 @@
 #pagelet_ticker{display: none}
 .ticker_stream{display:none}
 body{overflow:hidden;}
-._li{background:gray;}
-.uiScrollableAreaWrap{}
+._li, #facebook{background:#111;}
 #u_0_29{display:none;}
 ._5qqe{display:none;}
-.titlebarLabel {background:black;}
-.fbNubFlyoutTitlebar{background:black}
-.titlebar{background:black;}
-.titlebarButtonWrapper{background:black;}
+._5q5b .fbNubFlyoutTitlebar,.titlebarLabel,.fbNubFlyoutTitlebar .titlebar,.titlebarButtonWrapper {background-color:black; border:1px solid black;}
+div.uiMenu:after{background:black;}
+._5q5b ._50mz .titlebar .titlebarText{color:lightgreen}
+#ChatTabsPagelet{height:1000px}
+.button{color:lightgreen}
+
+div.uiSelectorMenuWrapper:nth-child(3) > div:nth-child(1) > ul:nth-child(1) > li:nth-child(10) > a:nth-child(1) > span:nth-child(1){display:none;}
+
+._50mz {max-height:1000px; height:1000px;}
+
+
+
+
+
