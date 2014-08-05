@@ -1,11 +1,8 @@
 //the list
-.fbChatOrderedList {width:28%;  margin: auto; position:fixed;}
-.conversationContainer{width:70%}
 .conversation{width:100%;}
 #globalContainer{left:5000px;}
 #pagelet_bluebar{display: none}
+#pagelet_ticker{display: none}
 .ticker_stream{display:none}
-
-
-
- 
+body{overflow:hidden;}
+ASD
