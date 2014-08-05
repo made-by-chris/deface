@@ -1,24 +1,29 @@
-//the list
-.conversation{width:100%;}
+/* width*/
 #globalContainer{left:5000px;}
 #pagelet_bluebar{display: none}
 #pagelet_ticker{display: none}
 .ticker_stream{display:none}
+/* Prevent scrolling*/
 body{overflow:hidden;}
-._li, #facebook{background:#111;}
+/* Change the background Colour */
+._li, #facebook{background:lightgray;}
 #u_0_29{display:none;}
 ._5qqe{display:none;}
-._5q5b .fbNubFlyoutTitlebar,.titlebarLabel,.fbNubFlyoutTitlebar .titlebar,.titlebarButtonWrapper {background-color:black; border:1px solid black;}
+._5q5b .fbNubFlyoutTitlebar,.titlebarLabel,.fbNubFlyoutTitlebar .titlebar,.titlebarButtonWrapper {background-color:#333; border:1px solid #333;}
 div.uiMenu:after{background:black;}
-._5q5b ._50mz .titlebar .titlebarText{color:lightgreen}
+._5q5b ._50mz .titlebar .titlebarText{color:#63A1F}//lightgreen
 #ChatTabsPagelet{height:1000px}
-.button{color:lightgreen}
+
 
 div.uiSelectorMenuWrapper:nth-child(3) > div:nth-child(1) > ul:nth-child(1) > li:nth-child(10) > a:nth-child(1) > span:nth-child(1){display:none;}
 
 ._50mz {max-height:1000px; height:1000px;}
 
-
+// trying to increas chat window height
+.fbNubFlyoutOuter{max-height:1000px; height:1000px;}
+.fbNubFlyoutBody{max-height:1000px; height:1000px;}
+.fbNubFlyoutBodyContent{max-height:1000px; height:1000px;}
+.fbNub
 
 
 

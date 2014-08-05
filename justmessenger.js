@@ -1,1 +1,2 @@
-console.log("justmessenger says hi")
+ document.title="justMessenger"
+
