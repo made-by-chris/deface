@@ -1,6 +1,9 @@
 deface - facebook defaced
 =============
 
+Official FF and Chrome extensions will be in their respective stores shortly.
+Perhaps a node-webkit desktop chat app for linux/OSX also :).
+
 A reduction of facebook to the bare chat function.
 
 Facebook has recently disallowed access the Chat API for third party apps.
