@@ -1,5 +1,5 @@
 
 
- var titler = function(){document.title="Deface"}
+ var titler = function(){document.title="deface"}
 
- setTimeout(titler,10000)
+ setTimeout(titler,3000)
