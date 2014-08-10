@@ -4,21 +4,20 @@
 #pagelet_ticker{display: none}
 .ticker_stream{display:none}
 /* Prevent scrolling*/
-body{overflow:hidden;zoom: 130%}
+body{overflow:hidden;}
 /* Change the background Colour */
 ._li, #facebook{background:#222}/*#B1D1E0*/
 #u_0_29{display:none;}
 ._5qqe{display:none;}
 ._5q5b .fbNubFlyoutTitlebar,.titlebarLabel,.fbNubFlyoutTitlebar .titlebar,.titlebarButtonWrapper {background-color:#222/*#333*/; border:2px #222;}
 /* div.uiMenu:after{background:black;} */
-._5q5b ._50mz .titlebar .titlebarText{color:lightgreen}//lightgreen
+._5q5b ._50mz .titlebar .titlebarText{color:lightgreen}
 
+div.fbNub{
+  max-height:700px; !important
+  height:700px; !important}
 
-
-
-div.uiSelectorMenuWrapper:nth-child(3) > div:nth-child(1) > ul:nth-child(1) > li:nth-child(10) > a:nth-child(1) > span:nth-child(1){display:none;}
-
-
+div.fbNub * > div *{}
 .fbNubFlyout,
 .fbDockChatTabFlyout,
 .uiContextualLayerParent,
@@ -30,19 +29,14 @@ div.uiSelectorMenuWrapper:nth-child(3) > div:nth-child(1) > ul:nth-child(1) > li
 .fbNubFlyout,
 .fbDockChatTabFlyout,
 .uiContextualLayerParent,
-._1ia {font-size:1.3rem};
-
-
-
-#ChatTabsPagelet
-
+._1ia {/*font-size:1.3rem*/};
 
 /*friends list*/
-.fbSidebarGripper
+/*.fbSidebarGripper
 .fbChatSidebarBody{height: 100%; width:400px;}
 .uiScrollableAreaWrap{}
 .uiScrollableAreaBody{}
-.fbChatOrderedList{}
+.fbChatOrderedList{}*/
 
 /* friends list and conversation backrgound */
 /* .scrollable{background: #CCFFCC;}

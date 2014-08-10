@@ -9,16 +9,17 @@ var button = buttons.ActionButton({
   id: "mozilla-link",
   label: "deface",
   icon: {
-    "16": "./favicon.ico",
-    "32": "./icon-32.png",
-    "64": "./icon-64.png"
+    "16": "./16.ico",
+    "32": "./32.png",
+    "64": "./64.png"
   },
   onClick: handleClick
 });
 
 function handleClick(state) {
+/*if(window.location.indexOf("facebook") = -1)*/{
   tabs.open("https://www.facebook.com/");
-}
+}}
 
 pageMod.PageMod({
   include: "/.*facebook.*/",

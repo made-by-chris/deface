@@ -1,6 +1,10 @@
 deface - facebook defaced
 =============
 
+*Work in Progress*
+no 'message recieved' alerts.
+disable extension to see normal facebook
+
 Official FF and Chrome extensions will be in their respective stores shortly.
 Perhaps a node-webkit desktop chat app for linux/OSX also :).
 

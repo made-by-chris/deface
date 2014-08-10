@@ -4,12 +4,14 @@ appearance
 make friends list thicker - fade darker on  mouseOut
 make convos taller
 remove speech bubbles
-make autorun on page load
-prevent clickthough to users
 insert text along top -
 "be careful, facebook monitors your conversations.https://github.com/basiclaser/justmessenger"
+Zoom in entire thing by 30% to make it easier to read?
 
 logic
+make autorun on page load
+prevent clickthough to users
+make sure chat notifications are getting through, and non-chat notifications are not getting through
 add toggle button to switch to normal FB
 fix friends list blank spot bug (with timered text-field input?)
 
