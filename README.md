@@ -1,30 +1,20 @@
-deface - facebook defaced
+deface
 =============
-
-*Work in Progress*
-no 'message recieved' alerts.
-disable extension to see normal facebook
-
-Official FF and Chrome extensions will be in their respective stores shortly.
-Perhaps a node-webkit desktop chat app for linux/OSX also :).
-
 A reduction of facebook to the bare chat function.
 
-Facebook has recently deprecated it's current Chat API for third party apps.
-This means you can use its official messenger apps or the website to chat, but in future it all third party chat apps may break.
-As I live in my browser, I use the chat function on usually on facebook.com, but often get caught up in the other stuff the website offers.
-This plugin cuts out all the distractions, without pulling me away from the browser.
+*Work in Progress*
 
-HOW TO
+no 'message recieved' alerts.
+disable extension to see normal facebook
+browser extensions coming to stores soon
 
-Facebook
-1.In your browser, hit ctrl-o/command-o
-2.Then navigate to addon-sdk-1.16/deface/ and add the deface.xpi folder.
-3.Click install.
-4.The extension will now allow you to open deface from a button in your browser UI.
-5.dont push tab
-Chrome
-1.Go to facebook.com, sign in.
-2.Hit control-shift C or command-shift C to open up the console
-3.(Chrome) Navigate to the sources tab, right-click the left file view, and 'add new folder'.
-Then add "addon-sdk-1.16/deface/data" . That folder contains the deface CSS & JS . Chrome plugin coming soon.
+Facebook has recently changed its chat protocol.
+This could mean we only be able to use its official messenger apps or the website to chat, and in future all third party apps may no longer function.
+
+When you look at the permissions of the FB messenger app, it is clear that they have access to far more personal information than they could possibly justify needing. This includes access to Microphone, Camera, call logs, Contacts, Emails, Signal connection control, and usage info of your other apps, and all of this at any time.
+
+If you don't want to jeapordize your mobile's privacy, and can't bear the site of the website interface
+but are still somehow required to use FB to communicate, this is your friendliest option.
+It cuts out all the distractions, without pulling you away from the browser.
+
+WARNING - Facebook will still monitor your conversations with this plugin.
