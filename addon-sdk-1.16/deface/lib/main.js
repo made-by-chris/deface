@@ -17,9 +17,14 @@ var button = buttons.ActionButton({
 });
 
 function handleClick(state) {
-/*if(window.location.indexOf("facebook") = -1)*/{
+  // if(tabs.activeTab.url.indexOf("facebook.com") >0)
+  //   {cssSwitcher()
+  //   }else
+  //     {
   tabs.open("https://www.facebook.com/");
-}}
+      // cssSwitcher()
+      // }
+  };
 
 pageMod.PageMod({
   include: "/.*facebook.*/",

@@ -6,7 +6,7 @@ A reduction of facebook to the bare chat function.
 
 no 'message recieved' alerts.
 disable extension to see normal facebook
-browser extensions coming to stores soon
+browser extensions coming to sotores soon
 
 Facebook has recently changed its chat protocol.
 This could mean we only be able to use its official messenger apps or the website to chat, and in future all third party apps may no longer function.

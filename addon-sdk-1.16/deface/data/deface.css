@@ -1,35 +1,29 @@
 /* width*/
-#globalContainer{left:5000px;bottom:5000px;display:none}
-#pagelet_bluebar{display: none}
-#pagelet_ticker{display: none}
-.ticker_stream{display:none}
-/* Prevent scrolling*/
-body{overflow:hidden;}
-/* Change the background Colour */
-._li, #facebook{background:#222}/*#B1D1E0*/
-#u_0_29{display:none;}
-._5qqe{display:none;}
-._5q5b .fbNubFlyoutTitlebar,.titlebarLabel,.fbNubFlyoutTitlebar .titlebar,.titlebarButtonWrapper {background-color:#222/*#333*/; border:2px #222;}
-/* div.uiMenu:after{background:black;} */
-._5q5b ._50mz .titlebar .titlebarText{color:lightgreen}
+.deface #globalContainer{left:5000px;bottom:5000px;display:none}
+.deface #pagelet_bluebar{display: none}
+.deface #pagelet_ticker{display: none}
+.deface .ticker_stream{display:none}
 
-div.fbNub{
+/* Prevent scrolling*/
+.deface body{overflow:hidden;}
+
+/* Change the background Colour */
+.deface ._li, #facebook{background:#222}/*#B1D1E0*/
+.deface #u_0_29{display:none;}
+.deface ._5qqe{display:none;}
+.deface ._5q5b .fbNubFlyoutTitlebar,.deface .titlebarLabel,.deface .fbNubFlyoutTitlebar .titlebar,.deface .titlebarButtonWrapper {background-color:#222; border:3px #222;}
+
+/* div.uiMenu:after{background:black;} */
+.deface ._5q5b ._50mz .titlebar .titlebarText{color:lightgreen}
+
+/*change chatbox closed tab color*/
+.deface .highlightTab,.deface .highlightTitle,.deface ._50mz,.deface ._50m_,.deface ._5238{color:lightgreen;}
+
+.deface div.fbNub{
   max-height:700px; !important
   height:700px; !important}
 
-div.fbNub * > div *{}
-.fbNubFlyout,
-.fbDockChatTabFlyout,
-.uiContextualLayerParent,
-.fbNubFlyoutOuter,
-.fbNubFlyoutBody,
-.fbNubFlyoutBodyContent,
-.fbNubFlyoutInner,
-._50mz,
-.fbNubFlyout,
-.fbDockChatTabFlyout,
-.uiContextualLayerParent,
-._1ia {/*font-size:1.3rem*/};
+.deface div.fbNub * > div *{}
 
 /*friends list*/
 /*.fbSidebarGripper
