@@ -1,16 +1,20 @@
 //Apply CSS
 // document.body.classList.add("deface");
 //Apply title
-var titler = function(){document.title="deFACE"}
-setTimeout(titler,5000)
+// var titler = function(){document.title="deface"}
+// setTimeout(titler,5000)
 
 //Apply message
-// document.body.insertAdjacentHTML('afterend','<h1 style="position:absolute;left:40px;top:0;padding:5px 10px;color:#333;font-size:2em;">Be careful. Facebook monitors your conversations.</h1>');
+// <code id="cursor">|</code>
+document.body.insertAdjacentHTML('afterend','<p id="update">\<br\>Disable this extension to see notifications, deface toggle off/on switch coming soon.</p>');
 
+var warning = function(){document.body.insertAdjacentHTML('afterend','<p id="warning">Be careful. Facebook monitors your conversations.</p>');
+}
+setTimeout(warning,5000)
 
 // Add message about surveillance WORKING TOO WELL - INJECTS ALL OVER THE PLACE
-// document.body.insertAdjacentHTML('afterend','<div style="width:20px; height:20px; background:#999; border-radius:100%;position:absolute;left:0;top:0;padding:10px;z-index:999;" onclick="document.body.classList.remove(\'deface\');"></div>');
-
+// document.body.insertAdjacentHTML('afterend','<div style="width:20px; height:20px; background:#999; border-radius:100%;;left:0;top:0;padding:10px;z-index:999;" onclick="document.body.classList.remove(\'deface\');"></div>');
+document.title = "deface";
 
 
 //toggle css classes BROKEN
@@ -20,11 +24,9 @@ setTimeout(titler,5000)
 
 // Untype and Retype title BROKEN
 
-// for(var char in document.title.length)
-// {document.title = document.title.substring(0, document.title.length-1);}
-// var newName = "deface";
-// for (var char in newName)
-//   {document.title[char] = newName[char];setTimeout(1000);}
+// for(var i = 0; i < 8; i++){
+// setTimeout(300,document.title = document.title.substring(0, document.title.length-1);)
+// }
 
 // Change favicon BROKEN
 // (function() {

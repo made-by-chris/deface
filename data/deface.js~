@@ -5,11 +5,11 @@
 //Apply title
  document.title = "deFACE";
 //Apply message
-// document.body.insertAdjacentHTML('afterend','<h1 style="position:absolute;left:40px;top:0;padding:5px 10px;color:#333;font-size:2em;">Be careful. Facebook monitors your conversations.</h1>');
+// document.body.insertAdjacentHTML('afterend','<h1 style=";left:40px;top:0;padding:5px 10px;color:#333;font-size:2em;">Be careful. Facebook monitors your conversations.</h1>');
 
 
 // Add message about surveillance WORKING TOO WELL - INJECTS ALL OVER THE PLACE
-// document.body.insertAdjacentHTML('afterend','<div style="width:20px; height:20px; background:#999; border-radius:100%;position:absolute;left:0;top:0;padding:10px;z-index:999;" onclick="document.body.classList.remove(\'deface\');"></div>');
+// document.body.insertAdjacentHTML('afterend','<div style="width:20px; height:20px; background:#999; border-radius:100%;;left:0;top:0;padding:10px;z-index:999;" onclick="document.body.classList.remove(\'deface\');"></div>');
 
 
 

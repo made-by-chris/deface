@@ -1,3 +1,78 @@
+/*style warning message*/
+
+#warning {
+    color: lightgreen;
+    font-family: "Courier";
+    font-size: 20px;
+    white-space: nowrap;
+    overflow: hidden;
+    width: 30em;
+    animation: type 4s steps(60, end);
+    display:inline-block;
+    padding:10px 0 0 10px;
+
+}
+
+
+#warning:nth-child(2) {
+    animation: type2 8s steps(60, end);
+}
+
+
+#update {
+    color: lightgreen;
+    font-family: "Courier";
+    font-size: 20px;
+    white-space: nowrap;
+    overflow: hidden;
+    width: 54em;
+    animation: type 4s steps(60, end);
+    display:inline-block;
+    padding:10px 0 0 10px;
+
+}
+
+#update:nth-child(2) {
+    animation: type2 8s steps(60, end);
+}
+
+#warning a {
+    color: lightgreen;
+    text-decoration: none;
+}
+
+#cursor {
+    animation: blink 1s infinite;
+    color: lightgreen;
+
+}
+
+@keyframes type {
+    from {
+        width: 0;
+    }
+}
+
+@keyframes type2 {
+    0% {
+        width: 0;
+    }
+
+    50% {
+        width: 0;
+    }
+
+    100% {
+        width: 100;
+    }
+}
+
+@keyframes blink {
+    to {
+        opacity: .0;
+    }
+}
+
 /* width*/
 /*.deface*/ #globalContainer{left:5000px;bottom:5000px;display:none; z-index:9999;}
 /*.deface*/ #pagelet_bluebar{display: none; z-index:9999;}
