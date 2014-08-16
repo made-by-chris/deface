@@ -6,11 +6,21 @@
 
 //Apply message
 // <code id="cursor">|</code>
-document.body.insertAdjacentHTML('afterend','<p id="update">\<br\>Disable this extension to see notifications, deface toggle off/on switch coming soon.</p>');
 
-var warning = function(){document.body.insertAdjacentHTML('afterend','<p id="warning">Be careful. Facebook monitors your conversations.</p>');
-}
-setTimeout(warning,5000)
+document.body.insertAdjacentHTML('beforebegin','<p class=cli >Deface is an open source project. check out the code <a href="http://github.com/basiclaser/deface"target="_blank">here.</a></p>');
+
+
+setTimeout("document.body.insertAdjacentHTML('beforebegin','<p class=cli >Be careful. Facebook monitors your conversations.');",4000);
+
+setTimeout("document.body.insertAdjacentHTML('beforebegin','<p class=cli >Say hi <a href=\"https://twitter.com/basiclaser\"target=\"_blank\">@basiclaser</a><span class=\"cursor\">|</span></p>');",8000);
+//
+// var addbutton = function(){document.body.insertAdjacentHTML('afterend','<h1>toggle deface</h1>');
+// }
+// setTimeout(addbutton,1000)
+
+// var addbutton = function(){document.body.insertAdjacentHTML('afterend','<h1>toggle deface</h1>');
+// }
+// setTimeout(addbutton,1000)
 
 // Add message about surveillance WORKING TOO WELL - INJECTS ALL OVER THE PLACE
 // document.body.insertAdjacentHTML('afterend','<div style="width:20px; height:20px; background:#999; border-radius:100%;;left:0;top:0;padding:10px;z-index:999;" onclick="document.body.classList.remove(\'deface\');"></div>');
