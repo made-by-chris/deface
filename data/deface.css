@@ -46,21 +46,28 @@ cli:nth-child(2){
 }
 
 
-/*.deface*/ #globalContainer{left:5000px;bottom:5000px;display:none; z-index:9999;}
-/*.deface*/ #pagelet_bluebar{display: none; z-index:9999;}
-/*.deface*/ #pagelet_ticker{display: none; z-index:9999;}
-/*.deface*/ .ticker_stream{display:none; z-index:9999;}
-/*.deface*/ body{overflow:hidden; z-index:9999;}
-/*.deface*/ ._li, #facebook{background:#222;}/*#B1D1E0*/
-/*.deface*/ #u_0_29{display:none; z-index:9999;}
-/*.deface*/ ._5qqe{display:none; z-index:9999;}
-/*.deface*/ ._5q5b .fbNubFlyoutTitlebar,/*.deface*/ .titlebarLabel,/*.deface*/ .fbNubFlyoutTitlebar .titlebar,/*.deface*/ .titlebarButtonWrapper {background-color:#222; border:3px #222; z-index:9999;}
+.deface #globalContainer{left:5000px;bottom:5000px;display:none; z-index:9999;}
+.deface #pagelet_bluebar{display: none; z-index:9999;}
+.deface #pagelet_ticker{display: none; z-index:9999;}
+.deface .ticker_stream{display:none; z-index:9999;}
+.deface body{overflow:hidden; z-index:9999;}
+.deface ._li, #facebook{background:#222;}/*#B1D1E0*/
+.deface #u_0_29{display:none; z-index:9999;}
+.deface ._5qqe{display:none; z-index:9999;}
+.deface ._5q5b .fbNubFlyoutTitlebar,.deface .titlebarLabel,.deface .fbNubFlyoutTitlebar .titlebar,.deface .titlebarButtonWrapper {background-color:#222; border:3px #222; z-index:9999;}
 
+
+#defaceButton{position:absolute;left:10px;top:10px;z-index:99999;width:24px;height:24px;background:white;border-radius:3px;color:lightgreen;text-align:center;font-size:1.4em;cursor:pointer}
+#defaceButton p {padding:0;margin:0; cursor:pointer}
+
+
+.deface .cli {display:block}
+.cli {display:none;}
 /* div.uiMenu:after{background:black;} */
-/*.deface*/ ._5q5b ._50mz .titlebar .titlebarText{color:lightgreen; z-index:9999;}
+.deface ._5q5b ._50mz .titlebar .titlebarText{color:lightgreen; z-index:9999;}
 
 /*change chatbox closed tab color*/
-/*.deface*/ .highlightTab,/*.deface*/ .highlightTitle,/*.deface*/ ._50mz,/*.deface*/ ._50m_,/*.deface*/ ._5238{color:lightgreen; z-index:9999;}
+.deface .highlightTab,.deface .highlightTitle,.deface ._50mz,.deface ._50m_,.deface ._5238{color:lightgreen; z-index:9999;}
 
 /*.deface div.fbNub{
   max-height:700px;

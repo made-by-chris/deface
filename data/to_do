@@ -2,12 +2,17 @@ TO DO
 
 
 NOW
-make presentable, wrap up, submit to store
+
+inject button to toggle deface features IN THE WINDOW, screw the action button
+
+
+Use this to descern the host domain accurately
+//var url = require("sdk/url").URL("https://developer.mozilla.org/en-US/Add-ons");
+//console.log(url.host);  // developer.mozilla.org
 
 
 LATER
-fix title renaming logic
-replace favicon
-make convos taller
-remove speech bubbles
-add button to toggle deface features IN THE WINDOW, screw the action button
+
+add desktop notifications
+
+chrome

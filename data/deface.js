@@ -1,42 +1,41 @@
-//Apply CSS
-// document.body.classList.add("deface");
-//Apply title
-// var titler = function(){document.title="deface"}
-// setTimeout(titler,5000)
+//inject CSS
+document.body.classList.add("deface");
+//inject title
+setTimeout(document.title="deface",5000);
+//inject message
 
-//Apply message
-// <code id="cursor">|</code>
+// document.body.insertAdjacentHTML('afterbegin','<p class=\"cli\" onclick=\"document.body.classList.remove(\'deface\');\">Toggle Deface</p>');
 
-document.body.insertAdjacentHTML('beforebegin','<p class=cli >Deface is an open source project. check out the code <a href="http://github.com/basiclaser/deface"target="_blank">here.</a></p>');
+document.body.insertAdjacentHTML('beforebegin','<div id="defaceButton" onclick="if(document.body.classList.contains(\'deface\')){document.body.classList.remove(\'deface\');} else {document.body.classList.add(\'deface\');}"><p>d</p></div>');
+// document.body.insertAdjacentHTML('afterbegin','<script>function toggleFunction(){
+// if (document.body.classList.contains("deface")){document.body.classList.remove("deface");}else{document.body.classList.add("deface");}};
+// </script>');
+
+//if(document.body.classList.contains("deface")){document.body.classList.remove("deface");}else{document.body.classList.add("deface");}
 
 
-setTimeout("document.body.insertAdjacentHTML('beforebegin','<p class=cli >Be careful. Facebook monitors your conversations.');",4000);
+document.body.insertAdjacentHTML('beforebegin','<p class=\"cli hideit\" >Deface is an open source project. check out the code <a href="http://github.com/basiclaser/deface"target="_blank">here.</a></p>');
+setTimeout("document.body.insertAdjacentHTML('beforebegin','<p class=\"cli hideit\" >Be careful. Facebook monitors your conversations.');",3000);
 
-setTimeout("document.body.insertAdjacentHTML('beforebegin','<p class=cli >Say hi <a href=\"https://twitter.com/basiclaser\"target=\"_blank\">@basiclaser</a><span class=\"cursor\">|</span></p>');",8000);
+setTimeout("document.body.insertAdjacentHTML('beforebegin','<p class=\"cli hideit\" ><a   href=\"https://twitter.com/basiclaser\"target=\"_blank\">@basiclaser</a><span class=\"cursor\">|</span></p>');",6000);
+
+
+// var addbutton = function(){document.body.insertAdjacentHTML('afterend','<h1>toggle deface</h1>');
+// }
+// setTimeout(addbutton,1000)
+
+// var addbutton = function(){document.body.insertAdjacentHTML('afterend','<h1>toggle deface</h1>');
+// }
+// setTimeout(addbutton,1000)
 //
-// var addbutton = function(){document.body.insertAdjacentHTML('afterend','<h1>toggle deface</h1>');
-// }
-// setTimeout(addbutton,1000)
-
-// var addbutton = function(){document.body.insertAdjacentHTML('afterend','<h1>toggle deface</h1>');
-// }
-// setTimeout(addbutton,1000)
-
-// Add message about surveillance WORKING TOO WELL - INJECTS ALL OVER THE PLACE
-// document.body.insertAdjacentHTML('afterend','<div style="width:20px; height:20px; background:#999; border-radius:100%;;left:0;top:0;padding:10px;z-index:999;" onclick="document.body.classList.remove(\'deface\');"></div>');
-document.title = "deface";
+// setTimeout("document.body.insertAdjacentHTML('afterend','<div style=\"width:20px; height:20px; background:#999; border-radius:100%;;left:0;top:0;padding:10px;z-index:999;\" onclick=\"document.body.classList.remove('deface');\"></div>');",10000)
 
 
 //toggle css classes BROKEN
-// document.body.insertAdjacentHTML('afterend','<script type="text/javascript">cssSwitcher = function(){document.body.classList.remove(\'deface\')};</script>');
+document.body.insertAdjacentHTML('afterend','<script type="text/javascript">cssSwitcher=function(){document.body.classList.remove(\'deface\')};</script>');
+if(body.className.indexOf("deface") < 0){document.body.classList.add("deface");}else{document.body.classList.remove("deface");}
 
-// if(body.className.indexOf("deface") < 0){document.body.classList.add("deface");}else{document.body.classList.remove("deface");}
 
-// Untype and Retype title BROKEN
-
-// for(var i = 0; i < 8; i++){
-// setTimeout(300,document.title = document.title.substring(0, document.title.length-1);)
-// }
 
 // Change favicon BROKEN
 // (function() {
