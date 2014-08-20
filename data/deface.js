@@ -6,18 +6,21 @@ setTimeout(document.title="deface",5000);
 
 // document.body.insertAdjacentHTML('afterbegin','<p class=\"cli\" onclick=\"document.body.classList.remove(\'deface\');\">Toggle Deface</p>');
 
-document.body.insertAdjacentHTML('beforebegin','<div id="defaceButton" onclick="if(document.body.classList.contains(\'deface\')){document.body.classList.remove(\'deface\');} else {document.body.classList.add(\'deface\');}"><p>d</p></div>');
+document.body.insertAdjacentHTML('beforebegin','<div id="defaceButton" class="selno" onclick="if(document.body.classList.contains(\'deface\')){document.body.classList.remove(\'deface\');} else {document.body.classList.add(\'deface\');}"><p>d</p></div>');
 // document.body.insertAdjacentHTML('afterbegin','<script>function toggleFunction(){
 // if (document.body.classList.contains("deface")){document.body.classList.remove("deface");}else{document.body.classList.add("deface");}};
 // </script>');
 
 //if(document.body.classList.contains("deface")){document.body.classList.remove("deface");}else{document.body.classList.add("deface");}
+//
+//
+// document.body.insertAdjacentHTML('beforebegin','<p class=\"cli\" >Deface is an open source project. check out the code <a href="http://github.com/basiclaser/deface"target="_blank">here.</a></p>');
+//
 
-
-document.body.insertAdjacentHTML('beforebegin','<p class=\"cli hideit\" >Deface is an open source project. check out the code <a href="http://github.com/basiclaser/deface"target="_blank">here.</a></p>');
-setTimeout("document.body.insertAdjacentHTML('beforebegin','<p class=\"cli hideit\" >Be careful. Facebook monitors your conversations.');",3000);
-
-setTimeout("document.body.insertAdjacentHTML('beforebegin','<p class=\"cli hideit\" ><a   href=\"https://twitter.com/basiclaser\"target=\"_blank\">@basiclaser</a><span class=\"cursor\">|</span></p>');",6000);
+setTimeout("document.body.insertAdjacentHTML('beforeend','<p style=\"position:absolute;left:50px;top:0;\" class=\"selno cli\" >Be careful. Facebook monitors your conversations.<span class=\"cursor\">|</span></p></p>');",3000);
+//
+//
+// setTimeout("document.body.insertAdjacentHTML('beforebegin','<p class=\"cli\" ><a   href=\"https://twitter.com/basiclaser\"target=\"_blank\">@basiclaser</a><span class=\"cursor\">|</span></p>');",6000);
 
 
 // var addbutton = function(){document.body.insertAdjacentHTML('afterend','<h1>toggle deface</h1>');
