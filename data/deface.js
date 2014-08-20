@@ -6,7 +6,11 @@ setTimeout(document.title="deface",5000);
 
 // document.body.insertAdjacentHTML('afterbegin','<p class=\"cli\" onclick=\"document.body.classList.remove(\'deface\');\">Toggle Deface</p>');
 
-document.body.insertAdjacentHTML('beforebegin','<div id="defaceButton" class="selno" onclick="if(document.body.classList.contains(\'deface\')){document.body.classList.remove(\'deface\');} else {document.body.classList.add(\'deface\');}"><p>d</p></div>');
+// //Random number generator
+// document.body.insertAdjacentHTML('afterbegin','<script>var randNum = function(){return Math.floor(Math.random()*2000000000000000)}</script>');
+
+
+document.body.insertAdjacentHTML('afterbegin','<div id="defaceButton" class="selno" onclick="if(document.body.classList.contains(\'deface\')){alert(\'please retype\');document.body.classList.remove(\'deface\');} else {document.body.classList.add(\'deface\');}"></div><script>var randNum = function(){Math.floor(Math.random()*2000000000000000)};</script>');
 // document.body.insertAdjacentHTML('afterbegin','<script>function toggleFunction(){
 // if (document.body.classList.contains("deface")){document.body.classList.remove("deface");}else{document.body.classList.add("deface");}};
 // </script>');
@@ -17,7 +21,7 @@ document.body.insertAdjacentHTML('beforebegin','<div id="defaceButton" class="se
 // document.body.insertAdjacentHTML('beforebegin','<p class=\"cli\" >Deface is an open source project. check out the code <a href="http://github.com/basiclaser/deface"target="_blank">here.</a></p>');
 //
 
-setTimeout("document.body.insertAdjacentHTML('beforeend','<p style=\"position:absolute;left:50px;top:0;\" class=\"selno cli\" >Be careful. Facebook monitors your conversations.<span class=\"cursor\">|</span></p></p>');",3000);
+setTimeout("document.body.insertAdjacentHTML('beforeend','<p style=\"position:fixed;left:50px;top:0;\" class=\"selno cli\" >Be careful. Facebook monitors your conversations.<span class=\"cursor\">|</span></p></p>');",3000);
 //
 //
 // setTimeout("document.body.insertAdjacentHTML('beforebegin','<p class=\"cli\" ><a   href=\"https://twitter.com/basiclaser\"target=\"_blank\">@basiclaser</a><span class=\"cursor\">|</span></p>');",6000);
