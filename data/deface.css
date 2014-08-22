@@ -57,8 +57,7 @@ cli:nth-child(2){
 .deface ._5q5b .fbNubFlyoutTitlebar,.deface .titlebarLabel,.deface .fbNubFlyoutTitlebar .titlebar,.deface .titlebarButtonWrapper {background-color:#222; border:3px #222; z-index:9999;}
 
 
-#defaceButton{position:fixed;left:11px;top:10px;z-index:99999;width:22px;height:22px;background-image:url(http://imgbin.org/images/18892.png);background-size:contain;color:#3D5B99;text-align:center;font-size:1.4em;cursor:pointer}
-#defaceButton p {text-align:center;padding:0;margin:0;bottom:0; cursor:pointer;}
+#defaceButton{position:fixed;left:11px;top:10px;z-index:99999;width:22px;height:22px;background-image:url(http://imgbin.org/images/18984.png);background-size:contain;color:#3D5B99;text-align:center;font-size:1.4em;cursor:pointer}
 
 .selno{-webkit-touch-callout: none;
 -webkit-user-select: none;

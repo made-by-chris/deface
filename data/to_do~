@@ -1,0 +1,18 @@
+TO DO
+
+
+NOW
+
+inject button to toggle deface features IN THE WINDOW, screw the action button
+
+
+Use this to descern the host domain accurately
+//var url = require("sdk/url").URL("https://developer.mozilla.org/en-US/Add-ons");
+//console.log(url.host);  // developer.mozilla.org
+
+
+LATER
+
+add desktop notifications
+
+chrome
