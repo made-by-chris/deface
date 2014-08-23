@@ -1,16 +1,16 @@
 deface
 =============
 
-A reduction of facebook to the bare chat function.
+If you don't want to get distracted by Facebook, or throw away your privacy with the mobile messenger apps,
+but are still somehow required to use Facebook chat, deface is the solution. deface helps you detox by allowing only 30-second bursts of viewing the stream.
 
-*Work in Progress* - *Login to facebook before installing*
+
+1.Toggle deface off/on with the icon in the top-left corner(deface will reactivate after 30 seconds)
+
+2.Please login to Facebook to use deface
 
 Firefox version > https://addons.mozilla.org/en-US/firefox/addon/deface/
-Chrome version coming soon
 
-If you don't want to get distracted by facebook, or throw away your privacy with the mobile messenger apps,
-but are still somehow required to use Facebook chat.
+Chrome version >
 
-It cuts out all the distractions, without pulling you away from the browser.
-
-WARNING - Facebook will still monitor your conversations with this plugin.
+all the code > https://github.com/basiclaser/deface

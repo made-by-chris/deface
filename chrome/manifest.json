@@ -1,0 +1,21 @@
+{
+  "manifest_version": 2,
+  "name": "deface",
+  "version": "0.2",
+
+  "description": "Minimal Facebook chat without any distractions",
+  "icons": { "16": "64.png",
+           "48": "64.png",
+          "128": "64.png" },
+  "author": "basiclaser",
+
+
+  "content_scripts": [
+    {
+      "matches": ["*://www.facebook.com/*"],
+      "css": ["deface.css"],
+      "js": ["deface.js"]
+    }
+  ]
+
+}
