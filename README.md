@@ -1,5 +1,5 @@
 
-![deface running in chrome on OSX](https://github.com/basiclaser/deface/deface.png)
+![deface running in chrome on OSX](deface.png)
 
 deface
 =============
