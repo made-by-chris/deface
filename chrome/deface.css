@@ -1,96 +1,166 @@
-.cli{
-  color: lightgreen;
-  font-family: "Courier";
-  font-size: 20px;
-  white-space: nowrap;
-  overflow: hidden;
-  width: 50em;
-  -webkit-animation:type 4s steps(60, end);
-  animation: type 4s steps(60, end);
+.cli {
+    color: #4DFF86;
+    font-family: "monospace";
+    font-size: 20px;
+    white-space: nowrap;
+    overflow: hidden;
+    width: 50em;
+    -webkit-animation: type 4s steps(60, end);
+    animation: type 4s steps(60, end);
 }
 
-cli:nth-child(2){
-  -webkit-animation:type2 8s steps(60, end);
-  animation: type2 8s steps(60, end);
+cli:nth-child(2) {
+    -webkit-animation: type2 8s steps(60, end);
+    animation: type2 8s steps(60, end);
 }
 
-.cli a{
-  color: lightgreen;
-  text-decoration: none;
+.cli a {
+    color: #4DFF86;
+    text-decoration: none;
 }
 
-.cursor{
-  -webkit-animation:blink 1s infinite;
-  animation: blink 1s infinite;
+.cursor {
+    -webkit-animation: blink 1s infinite;
+    animation: blink 1s infinite;
 }
 
-@-webkit-keyframes type{
-  from { width: 0; }
-}
-@keyframes type{
-  from { width: 0; }
-}
-
-@-webkit-keyframes type2{
-  0%{width: 0;}
-  50%{width: 0;}
-  100%{ width: 100; }
-}
-@keyframes type2{
-  0%{width: 0;}
-  50%{width: 0;}
-  100%{ width: 100; }
+@-webkit-keyframes type {
+    from {
+        width: 0;
+    }
 }
 
-@-webkit-keyframes blink{
-  to{opacity: .0;}
+@keyframes type {
+    from {
+        width: 0;
+    }
 }
-@keyframes blink{
-  to{opacity: .0;}
+
+@-webkit-keyframes type2 {
+    0% {
+        width: 0;
+    }
+
+    50% {
+        width: 0;
+    }
+
+    100% {
+        width: 100;
+    }
 }
 
+@keyframes type2 {
+    0% {
+        width: 0;
+    }
 
-.deface #globalContainer{left:5000px;bottom:5000px;display:none; z-index:9999;}
-.deface #pagelet_bluebar{display: none; z-index:9999;}
-.deface #pagelet_ticker{display: none; z-index:9999;}
-.deface .ticker_stream{display:none; z-index:9999;}
-.deface body{overflow:hidden; z-index:9999;}
-.deface ._li, #facebook{background:#222;}/*#B1D1E0*/
-.deface #u_0_29{display:none; z-index:9999;}
-.deface ._5qqe{display:none; z-index:9999;}
-.deface ._5q5b .fbNubFlyoutTitlebar,.deface .titlebarLabel,.deface .fbNubFlyoutTitlebar .titlebar,.deface .titlebarButtonWrapper {background-color:#222; border:3px #222; z-index:9999;}
+    50% {
+        width: 0;
+    }
 
+    100% {
+        width: 100;
+    }
+}
 
-#defaceButton{position:fixed;left:11px;top:10px;z-index:99999;width:22px;height:22px;background-image:url(http://imgbin.org/images/18984.png);background-size:contain;color:#3D5B99;text-align:center;font-size:1.4em;cursor:pointer}
+@-webkit-keyframes blink {
+    to {
+        opacity: .0;
+    }
+}
 
-.selno{-webkit-touch-callout: none;
--webkit-user-select: none;
--khtml-user-select: none;
--moz-user-select: none;
--ms-user-select: none;
-user-select: none;}
+@keyframes blink {
+    to {
+        opacity: .0;
+    }
+}
 
-.deface .cli {display:block}
-.cli {display:none;}
+.deface #globalContainer {
+    left: 5000px;
+    bottom: 5000px;
+    display: none;
+    z-index: 9999;
+}
+
+.deface #pagelet_bluebar {
+    display: none;
+    z-index: 9999;
+}
+
+.deface #pagelet_ticker {
+    display: none;
+    z-index: 9999;
+}
+
+.deface .ticker_stream {
+    display: none;
+    z-index: 9999;
+}
+
+.deface body {
+    overflow: hidden;
+    z-index: 9999;
+}
+
+.deface ._li, #facebook {
+    background: #222;
+}/*#B1D1E0*/
+.deface #u_0_29 {
+    display: none;
+    z-index: 9999;
+}
+
+.deface ._5qqe {
+    display: none;
+    z-index: 9999;
+}
+
+.deface ._5q5b .fbNubFlyoutTitlebar,.deface .titlebarLabel,.deface .fbNubFlyoutTitlebar .titlebar,.deface .titlebarButtonWrapper {
+    background-color: #222;
+    border: 3px #222;
+    z-index: 9999;
+}
+
+#defaceButton {
+    position: fixed;
+    left: 11px;
+    top: 10px;
+    z-index: 99999;
+    width: 22px;
+    height: 22px;
+    background-image: url(http://imgbin.org/images/18984.png);
+    background-size: contain;
+    color: #3D5B99;
+    text-align: center;
+    font-size: 1.4em;
+    cursor: pointer;
+}
+
+.selno {
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+.deface .cli {
+    display: block;
+}
+
+.cli {
+    display: none;
+}
 /* div.uiMenu:after{background:black;} */
-.deface ._5q5b ._50mz .titlebar .titlebarText{color:lightgreen; z-index:9999;}
+.deface ._5q5b ._50mz .titlebar .titlebarText {
+    color: #4DFF86;
+    z-index: 9999;
+}
 
 /*change chatbox closed tab color*/
-.deface .highlightTab,.deface .highlightTitle,.deface ._50mz,.deface ._50m_,.deface ._5238{color:lightgreen; z-index:9999;}
-
-/*.deface div.fbNub{
-  max-height:700px;
-  height:700px;}*/
-
-/*.deface div.fbNub * > div *{}*/
-
-/*friends list*/
-/*.fbSidebarGripper
-.fbChatSidebarBody{height: 100%; width:400px;}
-.uiScrollableAreaWrap{}
-.uiScrollableAreaBody{}
-.fbChatOrderedList{}*/
-
-/* friends list and conversation backrgound */
-/* .scrollable{background: #CCFFCC;}
-._51m-{background: #CCFFCC} */
+.deface .highlightTab,.deface .highlightTitle,.deface ._50mz,.deface ._50m_,.deface ._5238 {
+    color: #4DFF86;
+    z-index: 9999;
+}
