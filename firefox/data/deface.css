@@ -1,6 +1,6 @@
 .cli {
     color: #4DFF86;
-    font-family: "monospace";
+    font-family: Courier, Monospace;
     white-space: nowrap;
     overflow: hidden;
     width: 50em;
