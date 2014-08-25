@@ -1,13 +1,16 @@
 .cli {
     color: #4DFF86;
     font-family: Courier, Monospace;
+    font-size: 20px;
     white-space: nowrap;
     overflow: hidden;
     width: 50em;
+    -webkit-animation: type 4s steps(60, end);
     animation: type 4s steps(60, end);
 }
 
 cli:nth-child(2) {
+    -webkit-animation: type2 8s steps(60, end);
     animation: type2 8s steps(60, end);
 }
 
@@ -17,12 +20,33 @@ cli:nth-child(2) {
 }
 
 .cursor {
+    -webkit-animation: blink 1s infinite;
     animation: blink 1s infinite;
+}
+
+@-webkit-keyframes type {
+    from {
+        width: 0;
+    }
 }
 
 @keyframes type {
     from {
         width: 0;
+    }
+}
+
+@-webkit-keyframes type2 {
+    0% {
+        width: 0;
+    }
+
+    50% {
+        width: 0;
+    }
+
+    100% {
+        width: 100;
     }
 }
 
@@ -40,6 +64,12 @@ cli:nth-child(2) {
     }
 }
 
+@-webkit-keyframes blink {
+    to {
+        opacity: .0;
+    }
+}
+
 @keyframes blink {
     to {
         opacity: .0;
@@ -50,6 +80,7 @@ cli:nth-child(2) {
     left: 5000px;
     bottom: 5000px;
     display: none;
+    z-index: 9999;
 }
 
 .deface #pagelet_bluebar {
@@ -133,3 +164,7 @@ cli:nth-child(2) {
     color: #4DFF86;
     z-index: 9999;
 }
+
+.deface #u_0_2d > div:nth-child(even) > div, .deface #u_0_2d > div:nth-child(odd) > div{
+  max-height:90vh;height:90vh;
+  }

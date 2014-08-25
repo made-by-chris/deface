@@ -164,3 +164,7 @@ cli:nth-child(2) {
     color: #4DFF86;
     z-index: 9999;
 }
+
+.deface #u_0_2d > div:nth-child(even) > div, .deface #u_0_2d > div:nth-child(odd) > div{
+  max-height:90vh;height:90vh;
+  }
