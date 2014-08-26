@@ -1,7 +1,7 @@
 {
   "manifest_version": 2,
   "name": "deface",
-  "version": "0.2",
+  "version": "0.4",
 
   "description": "Minimal Facebook chat without any distractions",
   "icons": { "16": "64.png",
