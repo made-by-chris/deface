@@ -7,7 +7,7 @@ It also helps you detox by allowing only 30-second bursts of viewing the stream.
 If you don't want to get distracted by Facebook, or throw away your privacy with the mobile messenger apps,
 but are still somehow required to use Facebook chat, deface is the solution.
 
-<strong>INSTRUCTIONS</strong>
+<stron>INSTRUCTIONS</stron>
 
 1.Toggle deface off/on with the icon in the top-left corner(deface will reactivate after 30 seconds)
 
@@ -20,5 +20,5 @@ Chrome store > https://chrome.google.com/webstore/detail/deface/ihhimmbgggpdando
 
 ```
 
-## Heroes
-** thanks to the hackership crew and evan **
+Heroes
+<3 thanks to the Hackership crew Evan and Björn <3
