@@ -1,3 +1,12 @@
+/*#splash{
+ z-index:99999;
+ position:absolute;
+ background:#222;
+ width:110%;
+ height:110%;
+}*/
+
+/*ANIMATED TEXT*/
 .cli {
     color: #4DFF86;
     font-family: Courier, Monospace;
@@ -76,31 +85,26 @@ cli:nth-child(2) {
     }
 }
 
+/*HIDING FACEBOOK ELEMENTS*/
+
 .deface #globalContainer {
-    left: 5000px;
-    bottom: 5000px;
     display: none;
-    z-index: 9999;
 }
 
 .deface #pagelet_bluebar {
     display: none;
-    z-index: 9999;
 }
 
 .deface #pagelet_ticker {
     display: none;
-    z-index: 9999;
 }
 
 .deface .ticker_stream {
     display: none;
-    z-index: 9999;
 }
 
 .deface body {
     overflow: hidden;
-    z-index: 9999;
 }
 
 .deface ._li, #facebook {
@@ -108,18 +112,15 @@ cli:nth-child(2) {
 }/*#B1D1E0*/
 .deface #u_0_29 {
     display: none;
-    z-index: 9999;
 }
 
 .deface ._5qqe {
     display: none;
-    z-index: 9999;
 }
 
 .deface ._5q5b .fbNubFlyoutTitlebar,.deface .titlebarLabel,.deface .fbNubFlyoutTitlebar .titlebar,.deface .titlebarButtonWrapper {
     background-color: #222;
     border: 3px #222;
-    z-index: 9999;
 }
 
 #defaceButton {
@@ -131,7 +132,6 @@ cli:nth-child(2) {
     height: 22px;
     background-image: url(http://imgbin.org/images/18984.png);
     background-size: contain;
-    color: #3D5B99;
     text-align: center;
     font-size: 1.4em;
     cursor: pointer;
@@ -156,15 +156,29 @@ cli:nth-child(2) {
 /* div.uiMenu:after{background:black;} */
 .deface ._5q5b ._50mz .titlebar .titlebarText {
     color: #4DFF86;
-    z-index: 9999;
 }
 
 /*change chatbox closed tab color*/
 .deface .highlightTab,.deface .highlightTitle,.deface ._50mz,.deface ._50m_,.deface ._5238 {
     color: #4DFF86;
-    z-index: 9999;
 }
 
-.deface #u_0_2d > div:nth-child(even) > div, .deface #u_0_2d > div:nth-child(odd) > div{
-  max-height:90vh;height:90vh;
-  }
+/*height hack */
+#u_0_2d > div:nth-child(even) > div,  #u_0_2d > div:nth-child(odd) > div{
+max-height:90vh;
+height:90vh;
+}
+/*.deface #u_0_2d > div:nth-child(even) > div, .deface #u_0_2d > div:nth-child(odd) > div{
+display:block;max-height:90vh;height:90vh;
+}*/
+
+/*OPTIONS CSS*/
+
+/*CHAT HIDING ETC*/
+/*.deface #u_0_1l > div.fbChatSidebarBody{display:block;}
+.deface #u_0_1l > table{display:block;}*/
+/*hide chat stuff in normal mode*/
+/*#u_0_2d > div:nth-child(even) > div, #u_0_2d > div:nth-child(odd) > div{
+display:none}*/
+/*#u_0_1l > div.fbChatSidebarBody{display:none;}*/
+/*#u_0_1l > table{display:none;}*/
