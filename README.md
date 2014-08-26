@@ -15,7 +15,7 @@ but are still somehow required to use Facebook chat, deface is the solution.
 
 Firefox store > https://addons.mozilla.org/en-US/firefox/addon/deface/
 
-Chrome store >
+Chrome store > https://chrome.google.com/webstore/detail/deface/ihhimmbgggpdandomknjjamhbofgpijj
 
 
 ```
