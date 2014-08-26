@@ -2,7 +2,6 @@
 ![deface running in chrome on OSX](img/facedeck.png)
 
 deface removes everything except the chat from Facebook.
-It also helps you detox by allowing only 30-second bursts of viewing the stream.
 
 If you don't want to get distracted by Facebook, or throw away your privacy with the mobile messenger apps,
 but are still somehow required to use Facebook chat, deface is the solution.
@@ -29,4 +28,4 @@ https://gittip.com/basiclaser
 ```
 
 Heroes
-<3 thanks to the Hackership crew, Evan and Björn <3
+<3 thanks to the Hackership crew, Evan, and Björn <3
