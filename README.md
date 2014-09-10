@@ -1,18 +1,13 @@
 
-![deface running in chrome on OSX](img/facedeck.png)
+![deface running in chrome on OSX](img/n.png)
 
 deface removes everything except the chat from Facebook.
 
 If you don't want to get distracted by Facebook, or throw away your privacy with the mobile messenger apps,
 but are still somehow required to use Facebook chat, deface is the solution.
 
-<stron>INSTRUCTIONS</stron>
 
-1.Toggle deface off/on with the icon in the top-left corner
-
-2.Please log in to Facebook to use deface
-
-*anti-procrastination timers and more features coming very soon :) 
+*Please log in to Facebook to use deface
 
 
 Firefox store > https://addons.mozilla.org/en-US/firefox/addon/deface/
