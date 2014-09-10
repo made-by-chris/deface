@@ -1,0 +1,61 @@
+@import 'bourbon/bourbon';
+@import 'neat/neat';
+@import 'sass/colors';
+@import 'sass/typo';
+@import 'sass/browser';
+
+
+@mixin border-radius($topLeft, $topRight, $bottomRight, $bottomLeft) {
+  -webkit-border-radius: $topLeft $topRight $bottomRight $bottomLeft;
+  -moz-border-radius: $topLeft $topRight $bottomRight $bottomLeft;
+  -ms-border-radius: $topLeft $topRight $bottomRight $bottomLeft;
+  -o-border-radius: $topLeft $topRight $bottomRight $bottomLeft;
+  border-radius: $topLeft $topRight $bottomRight $bottomLeft;
+}
+
+body {
+  @include outer-container;
+  background-color: $base-background-color;
+}
+
+.twelve{
+@include span-columns(6);
+@include shift(3);  
+}
+
+.heading{
+  @include shift(4.3);
+  @include padding(5vh null 5vh null);
+
+}
+
+.icon {
+  height:10vh;
+  width:10vh;
+  float:left;
+}
+
+.title {
+margin:0;
+@include padding(null null null 4vh);
+}
+
+
+
+.body-text{
+  @include span-columns(6);
+  @include shift(3);
+  @include padding(5vh null null null);
+  @include media($large-screen) {
+  @include padding(5vh null null null);
+  }
+}
+
+.buttons{
+    @include button(lighten(black,10));
+    color:white;
+}
+
+.bold{font-weight:bold;}
+
+.center{text-align:center;}

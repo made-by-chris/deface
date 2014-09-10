@@ -8,11 +8,6 @@ var pattern = new MatchPattern(/.*facebook.*/);
 pageMod.PageMod({
   attachTo: ["existing", "top"],
   include: "*.facebook.com",
-    contentStyleFile: self.data.url("deface.css")
-});
-
-pageMod.PageMod({
-  attachTo: ["existing", "top"],
-include: "*.facebook.com",
+    contentStyleFile: self.data.url("deface.css"),
     contentScriptFile: self.data.url("deface.js")
 });

@@ -1,0 +1,9 @@
+@import "bourbon/bourbon";
+
+
+.special {
+    background: #990000;
+    p {
+        color: green;
+    }
+}

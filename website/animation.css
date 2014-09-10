@@ -1,0 +1,77 @@
+/*ANIMATED TEXT*/
+.cli {
+    color: #4DFF86;
+    white-space: nowrap;
+    overflow: hidden;
+    font-size:50px;
+    width: 4.5em;
+    -webkit-animation: type 1s steps(7, end);
+    animation: type 1s steps(7, end);
+}
+
+/*cli:nth-child(2) {
+    -webkit-animation: type2 8s steps(60, end);
+    animation: type 10s steps(1, end);
+}*/
+
+.cli a {
+    color: #4DFF86;
+    text-decoration: none;
+}
+
+.cursor {
+    -webkit-animation: blink 1s infinite;
+    animation: blink 1s infinite;
+}
+
+@-webkit-keyframes type {
+    from {
+        width: 0;
+    }
+}
+
+@keyframes type {
+    from {
+        width: 0;
+    }
+}
+
+@-webkit-keyframes type2 {
+    0% {
+        width: 0;
+    }
+
+    50% {
+        width: 0;
+    }
+
+    100% {
+        width: 100;
+    }
+}
+
+@keyframes type2 {
+    0% {
+        width: 0;
+    }
+
+    50% {
+        width: 0;
+    }
+
+    100% {
+        width: 100;
+    }
+}
+
+@-webkit-keyframes blink {
+    to {
+        opacity: .1;
+    }
+}
+
+@keyframes blink {
+    to {
+        opacity: .1;
+    }
+}

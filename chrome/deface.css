@@ -1,127 +1,77 @@
-/*#splash{
- z-index:99999;
- position:absolute;
- background:#222;
- width:110%;
- height:110%;
-}*/
-
-/*ANIMATED TEXT*/
-.cli {
-    color: #4DFF86;
-    font-family: Courier, Monospace;
-    font-size: 20px;
-    white-space: nowrap;
-    overflow: hidden;
-    width: 50em;
-    -webkit-animation: type 4s steps(60, end);
-    animation: type 4s steps(60, end);
-}
-
-cli:nth-child(2) {
-    -webkit-animation: type2 8s steps(60, end);
-    animation: type2 8s steps(60, end);
-}
-
-.cli a {
-    color: #4DFF86;
-    text-decoration: none;
-}
-
-.cursor {
-    -webkit-animation: blink 1s infinite;
-    animation: blink 1s infinite;
-}
-
-@-webkit-keyframes type {
-    from {
-        width: 0;
-    }
-}
-
-@keyframes type {
-    from {
-        width: 0;
-    }
-}
-
-@-webkit-keyframes type2 {
-    0% {
-        width: 0;
-    }
-
-    50% {
-        width: 0;
-    }
-
-    100% {
-        width: 100;
-    }
-}
-
-@keyframes type2 {
-    0% {
-        width: 0;
-    }
-
-    50% {
-        width: 0;
-    }
-
-    100% {
-        width: 100;
-    }
-}
-
-@-webkit-keyframes blink {
-    to {
-        opacity: .0;
-    }
-}
-
-@keyframes blink {
-    to {
-        opacity: .0;
-    }
-}
-
-/*HIDING FACEBOOK ELEMENTS*/
-
+  
 .deface #globalContainer {
-    display: none;
+    right:3000px;
+    display:none;  
 }
 
 .deface #pagelet_bluebar {
-    display: none;
-}
+    display:none; 
+ }
 
 .deface #pagelet_ticker {
-    display: none;
+    /*display:none;*/
 }
 
 .deface .ticker_stream {
-    display: none;
+    /*display:none;*/
 }
 
-.deface body {
-    overflow: hidden;
+.deface ._5qqe{
+  display:none;
+  
 }
 
-.deface ._li, #facebook {
-    background: #222;
-}/*#B1D1E0*/
 .deface #u_0_29 {
-    display: none;
+/*left:3000px;*/
 }
 
 .deface ._5qqe {
-    display: none;
+/*left:3000px;*/
 }
 
+
+#arrow-left {
+  left:44px;
+  top:12px;
+	width: 0; 
+	height: 0; 
+	border-top: 10px solid transparent;
+	border-bottom: 10px solid transparent; 
+	border-right:10px solid white; 
+  position:fixed;
+  cursor: pointer;
+}
+
+#options{
+  z-index:99999999;
+  position:fixed;
+  background:white;
+  left:54px;
+  top:11px;
+  padding:3px 3px;
+  border-radius:2px;
+  cursor: pointer;
+  }
+
+.hide-options{
+  display:none;
+}
+
+#facebook{
+  background: #222;
+}
+.deface #facebook {
+    overflow: hidden;
+}
 .deface ._5q5b .fbNubFlyoutTitlebar,.deface .titlebarLabel,.deface .fbNubFlyoutTitlebar .titlebar,.deface .titlebarButtonWrapper {
     background-color: #222;
     border: 3px #222;
 }
+
+.hidden_elem{display:none;}
+
+.fbNubFlyoutOuter {display:block;}
+div._50mz:nth-child(1) > div:nth-child(2){display:block;}
 
 #defaceButton {
     position: fixed;
@@ -130,7 +80,7 @@ cli:nth-child(2) {
     z-index: 99999;
     width: 22px;
     height: 22px;
-    background-image: url(http://imgbin.org/images/18984.png);
+    background-image: url(http://deface.xyz/img/white-icon.svg);
     background-size: contain;
     text-align: center;
     font-size: 1.4em;
@@ -153,32 +103,21 @@ cli:nth-child(2) {
 .cli {
     display: none;
 }
-/* div.uiMenu:after{background:black;} */
+
 .deface ._5q5b ._50mz .titlebar .titlebarText {
     color: #4DFF86;
 }
 
-/*change chatbox closed tab color*/
-.deface .highlightTab,.deface .highlightTitle,.deface ._50mz,.deface ._50m_,.deface ._5238 {
+  .deface .highlightTab,.deface .highlightTitle,.deface ._50mz,.deface ._50m_,.deface ._5238 {
     color: #4DFF86;
 }
 
-/*height hack */
-#u_0_2d > div:nth-child(even) > div,  #u_0_2d > div:nth-child(odd) > div{
-max-height:90vh;
-height:90vh;
-}
-/*.deface #u_0_2d > div:nth-child(even) > div, .deface #u_0_2d > div:nth-child(odd) > div{
-display:block;max-height:90vh;height:90vh;
-}*/
+/*broke*/
+/*.heighty #u_0_2b > div.fbNub:nth-child(even) > div,.heighty #u_0_2b > div.fbNub:nth-child(odd) > div{max-height:90vh;
+height:90vh;}*/
 
-/*OPTIONS CSS*/
+ .heighty #u_0_2a > div:nth-child(even) > div, .heighty #u_0_2a > div:nth-child(odd) > div{max-height:90vh;
+height:90vh;}
 
-/*CHAT HIDING ETC*/
-/*.deface #u_0_1l > div.fbChatSidebarBody{display:block;}
-.deface #u_0_1l > table{display:block;}*/
-/*hide chat stuff in normal mode*/
-/*#u_0_2d > div:nth-child(even) > div, #u_0_2d > div:nth-child(odd) > div{
-display:none}*/
-/*#u_0_1l > div.fbChatSidebarBody{display:none;}*/
-/*#u_0_1l > table{display:none;}*/
+.deface body{overflow: hidden;}
+.deface .cardRightCol{display:none;}
